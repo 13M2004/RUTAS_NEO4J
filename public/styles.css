@@ -8,12 +8,12 @@ body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(
         90deg,
-        #87CEEB 0%,    /* Azul cielo izquierdo */
-        #87CEEB 15%,   /* Azul cielo izquierdo */
-        #FFFFFF 15%,   /* Blanco central */
-        #FFFFFF 85%,   /* Blanco central */
-        #87CEEB 85%,   /* Azul cielo derecho */
-        #87CEEB 100%   /* Azul cielo derecho */
+        #87CEEB 0%,
+        #87CEEB 15%,
+        #FFFFFF 15%,
+        #FFFFFF 85%,
+        #87CEEB 85%,
+        #87CEEB 100%
     );
     color: #2d3436;
     line-height: 1.6;
@@ -89,6 +89,13 @@ button {
 button:hover {
     background-color: #0062cc;
     transform: translateY(-2px);
+}
+
+.mapa-button {
+    display: block;
+    margin: 20px auto;
+    width: auto;
+    min-width: 200px;
 }
 
 #resultado {

@@ -6,7 +6,6 @@ window.onload = async () => {
         const origenSelect = document.getElementById('origen');
         const destinoSelect = document.getElementById('destino');
         
-        // Limpiar opciones existentes
         origenSelect.innerHTML = '<option value="">Seleccione origen</option>';
         destinoSelect.innerHTML = '<option value="">Seleccione destino</option>';
         
@@ -61,4 +60,8 @@ async function buscarRuta() {
         console.error('Error buscando ruta:', error);
         alert('Error al buscar la ruta');
     }
+}
+
+function verMapa() {
+    window.location.href = 'mapa.html';
 }
